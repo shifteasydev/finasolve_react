@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:regular,italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Mynerve:regular);
+
+:root {
+    --navbar-Height: 80px;
+    --HeroVideo-Height: 550px;
+
+}
+
+.hero-section {
+
+    width: 100%;
+    height: var(--HeroVideo-Height);
+    margin-top: 0;
+    border: 0;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: var(--HeroVideo-Height);
+    background-color: #000000;
+    opacity: 0.5;
+    z-index: 0;
+
+}
+
+.hero-head {
+    color: white;
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    z-index: 1;
+    text-align: center;
+  
+
+}
+
+.hero-video video {
+
+    width: 100%;
+    height: var(--HeroVideo-Height);
+    object-fit: cover;
+}
+
+.hero-head h3,
+h1,
+h2 {
+    color: white;
+    text-shadow: 2px 2px 3px #000000;
+}
+
+.hero-head h2 {
+    font-weight: 400;
+    font-size: 30px;
+
+}
+
+.hero-head h1 {
+
+    font-size: 60px;
+
+}
+
+.button{
+    margin-top: 15px;
+}
+
+
+
+
+/* Responsive For Tablet Screen size 767px to 1023px START */
+@media (max-width:1023px) {
+
+
+    .hero-head {
+
+       
+        padding: 5px;
+        top: center;
+        right: center;
+
+
+    }
+}
+
+/* Responsive For Tablet Screen size 601px to 1023px END */
+
+
+
+
+
+
+
+
+/*  */
+/*  */
+/* Responsive For Mobile Screen size 1024px to 1920px START */
+
+
+@media (max-width:767px) {
+
+    .hero-head {
+
+        padding: 5px;
+        top: 300px;
+        left:0;
+        right:0;
+        margin-left:auto;
+        margin-right:auto;
+
+  
+    }
+
+    .hero-head h2 {
+        font-size: 20px;
+    }
+
+    .hero-head h1 {
+        font-size: 45px;
+    }
+
+}
+
+
+/* Responsive For Mobile Screen size 1024px to 1920px END */
+
+
+
+
+
+/* extra breakpoints (mobile) */
+
+@media (max-width:425px){
+
+    .hero-head {
+
+        padding: 5px;
+        top: 300px;
+        left:0;
+        right:0;
+        margin-left:auto;
+        margin-right:auto;
+       
+    }
+
+    .hero-head h2 {
+        font-size: 15px;
+    }
+
+    .hero-head h1 {
+        font-size: 35px;
+    }
+
+}

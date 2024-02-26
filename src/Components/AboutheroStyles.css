@@ -1,0 +1,263 @@
+
+.about-mask {
+
+    width: 100%;
+    height: 450px;
+
+
+}
+
+.about-mask img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right 70%;
+
+}
+
+.about-mask::before {
+    content: "";
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+
+  -webkit-mask:radial-gradient(circle at 20% 40%, transparent , #fff 50%);
+  mask:radial-gradient(circle at 20% 40%, transparent , #fff 50%);
+    opacity: 0.8;
+    z-index: 0;
+}
+
+.about-content {
+    /* border: 1px solid red; */
+    position: absolute;
+    top:200px;
+    left: 450px;
+    width: 500px;
+    height: auto;
+    text-align: center;
+   
+
+}
+
+.about-content h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: rgb(255, 255, 255);
+    
+}
+.about-content h1{
+    /* border: 1px solid blue; */
+    font-size: 60px;
+    line-height: 70px;
+    
+}
+.about-content p{
+    /* border: 1px solid rgb(166, 255, 0); */
+    font-weight: 300;
+    font-size: 18px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1440px) {
+
+    .about-mask {
+
+        width: 100%;
+        height: 450px;
+    }
+    .about-mask img {
+
+        width: 100%;
+        height:450px;
+        object-fit: cover;
+        object-position: right 70%;
+     
+    }
+    .about-mask::before {
+
+        height: 450px;
+       
+    }
+
+
+    .about-content {
+        /* border: 1px solid red; */
+        position:absolute;
+        left:0;
+        right:0;
+        margin-left:auto;
+        margin-right:auto;
+        top:200px;
+        left: 40%;
+        width: 500px;
+        height: auto;
+        text-align: center;  
+    }
+    
+.about-content h1{
+    /* border: 1px solid blue; */
+    font-size: 60px;
+    line-height: 70px;
+    
+}
+.about-content p{
+    /* border: 1px solid rgb(166, 255, 0); */
+    font-weight: 300;
+    font-size: 18px;
+    
+    
+}
+
+
+
+
+
+
+    /* .about-mask {
+
+        width: 100%;
+        height: 450px;
+    
+    
+    }
+    .about-content {
+        left: 700px;
+        width: 600px;
+        height: auto; 
+    }
+    .about-mask img {
+        width: 100%;
+        height:450px;
+        object-fit: cover;
+        object-position: right 70%;
+    } */
+} 
+
+/* Responsive For Tablet Screen size 767px to 1023px START */
+@media (max-width:1023px) {
+
+    .about-mask {
+
+        width: 100%;
+        height: 350px;
+    }
+    .about-mask img {
+
+        width: 100%;
+        height:350px;
+        object-fit: cover;
+        object-position: right 70%;
+     
+    }
+    .about-mask::before {
+
+        height: 350px;
+       
+    }
+
+
+    .about-content {
+        /* border: 1px solid red; */
+        position:absolute;
+        left:0;
+        right:0;
+        margin-left:auto;
+        margin-right:auto;
+        top:200px;
+        left: 290px;
+        width: 400px;
+        height: auto;
+        text-align: center;  
+    }
+    
+.about-content h1{
+    /* border: 1px solid blue; */
+    font-size: 40px;
+    line-height: 40px;
+    
+}
+.about-content p{
+    /* border: 1px solid rgb(166, 255, 0); */
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    
+}
+
+    }
+    
+    /* Responsive For Tablet Screen size 601px to 1023px END */
+    
+    
+    
+    
+    
+    /* Responsive For Mobile Screen size 1024px to 1920px START */
+    @media (max-width:767px) {
+    
+        .about-mask {
+
+
+            height: 250px;
+        }
+        .about-mask img {
+    
+         
+            height:250px;
+      
+            object-position: left 90%;
+         
+        }
+        .about-mask::before {
+    
+            height: 250px;
+           
+        }
+        .about-content {
+          
+            top:150px;
+            left: 0px;
+            width: 270px;
+  
+        }
+   
+        .about-content h1{
+            /* border: 1px solid blue; */
+            font-size: 25px;
+            line-height: 30px;
+            
+        }
+        .about-content p{
+            /* border: 1px solid rgb(166, 255, 0); */
+     
+            font-size: 12px;
+            line-height: 18px;
+           
+            
+        }
+        
+
+
+    }
+    
+    /* Responsive For Mobile Screen size 1024px to 1920px END */
+    

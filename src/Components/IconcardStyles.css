@@ -1,0 +1,165 @@
+.icon-wrapper {
+  
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.icon-card {
+
+    padding: 10px 20px;
+    width: 32%;
+}
+
+.icon-card:hover {
+    background-color: #ffffff;
+    border-radius: 20px 0 20px 0;
+    box-shadow:
+    0.3px 0.7px 2.7px rgba(0, 0, 0, 0.037),
+    0.9px 1.7px 6.9px rgba(0, 0, 0, 0.053),
+    1.8px 3.5px 14.2px rgba(0, 0, 0, 0.067),
+    3.7px 7.3px 29.2px rgba(0, 0, 0, 0.083),
+    10px 20px 80px rgba(0, 0, 0, 0.12)
+  ;
+  transition: all 0.30s;
+}
+
+.icon-card h4 {
+    color: #20536F;
+}
+
+.icon-card p {
+    font-size: 14px;
+    color: #000000;
+}
+
+.icon-card img {
+    width: 25%;
+
+}
+
+.hover{
+    background-color: #ffffff;
+    border-radius: 20px;
+
+    box-shadow:
+    0.3px 0.7px 2.7px rgba(0, 0, 0, 0.037),
+    0.9px 1.7px 6.9px rgba(0, 0, 0, 0.053),
+    1.8px 3.5px 14.2px rgba(0, 0, 0, 0.067),
+    3.7px 7.3px 29.2px rgba(0, 0, 0, 0.083),
+    10px 20px 80px rgba(0, 0, 0, 0.12)
+  ;
+}
+.hover:hover{
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: none;
+    transition: all 0.50s;
+}
+
+
+
+
+
+/* Responsive For Tablet Screen size 767px to 1023px START */
+@media (max-width:1023px) {
+    .icon-wrapper{
+        margin-top: 730px;
+        padding: 20px 50px;
+     
+    }
+
+    .icon-card {
+
+        padding: 10px 20px;
+        width: 30%;
+    }
+   
+
+}
+
+/* Responsive For Tablet Screen size 601px to 1023px END */
+
+
+@media (max-width:1023px) {
+
+    .icon-wrapper{
+        margin-top:730px;
+       
+     
+    }
+
+    
+    }
+    
+@media (max-width:850px) {
+
+    .icon-wrapper{
+        margin-top:650px;
+       
+     
+    }
+
+    
+    }
+    
+
+
+/* Responsive For Mobile Screen size 1024px to 1920px START */
+@media (max-width:767px) {
+    .icon-wrapper{
+        margin-top:750px;
+        padding: 20px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+     
+    }
+
+    .icon-card {
+
+        padding: 10px 20px;
+        width: 100%;
+    }
+ 
+    .icon-card img {
+        width: 20%;
+    
+    }
+
+}
+@media (max-width:735px) {
+    .icon-wrapper{
+        margin-top:680px;
+    }
+
+}
+@media (max-width:550px) {
+    .icon-wrapper{
+        margin-top:600px;
+    }
+
+
+}
+@media (max-width:450px) {
+    .icon-wrapper{
+        margin-top:730px;
+        
+     
+    }
+}
+@media (max-width:370px) {
+    .icon-wrapper{
+        margin-top:900px;
+        
+     
+    }
+
+   
+
+}
+
+/* Responsive For Mobile Screen size 1024px to 1920px END */

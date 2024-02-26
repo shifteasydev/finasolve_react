@@ -1,0 +1,103 @@
+.solution-page{
+  display: none;
+}
+
+
+.solution-wrapper {
+    background-color: rgb(238, 238, 238);
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+.solution-wrapper a {
+  text-decoration: none;
+}
+
+.Sol-title{
+    background-color: rgb(238, 238, 238);
+    padding-top: 20px;
+    font-size: 38px;
+    font-weight: 700;
+    color: #1e4f6c;
+    text-align: center;
+}
+
+.solution-card {
+  border: 1px solid rgb(219, 219, 219);
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px 5px;
+  border-radius: 5px;
+  gap: 4px;
+  justify-content: center;
+}
+
+.solution-card:hover {
+  background-color: rgb(241, 241, 241);
+  box-shadow:
+  0px 0px 5.3px rgba(0, 0, 0, 0.04),
+  0px 0px 17.9px rgba(0, 0, 0, 0.06),
+  0px 0px 80px rgba(0, 0, 0, 0.1)
+;
+transition: all 0.25s;
+
+
+}
+.solution-card img {
+  width: 70px;
+}
+.solution-card p {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 500;
+  color: rgb(80, 80, 80);
+}
+
+/* Responsive For Tablet Screen size 767px to 1023px START */
+@media (max-width: 1023px) {
+
+  .solution-page{
+    display: block;
+  }
+  .Sol-title{
+
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+}
+
+/* Responsive For Tablet Screen size 601px to 1023px END */
+
+/*  */
+/*  */
+/* Responsive For Mobile Screen size 1024px to 1920px START */
+
+@media (max-width: 767px) {
+
+.solution-card {
+
+  width: 80px;
+ 
+}
+.solution-card img {
+    width: 20px;
+  }
+.solution-card p {
+    font-size: 8px;
+  }
+  .solution-card:hover {
+    background-color:white;
+    box-shadow: none;
+  }
+
+}
+
+/* Responsive For Mobile Screen size 1024px to 1920px END */

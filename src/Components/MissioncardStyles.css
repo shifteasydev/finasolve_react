@@ -1,0 +1,302 @@
+.mission-card p{
+    color: #000000;
+}
+
+
+.mission-cover {
+
+    padding: 30px 30px;
+    margin-top: 280px;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.mission-card {
+    max-width: 100%;
+    height: 350px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.mission-middle img {
+    width: 300px;
+
+
+}
+
+.mission-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+
+.mission-middle img:hover {
+    -webkit-animation: spin 24s linear infinite;
+    -moz-animation: spin 24s linear infinite;
+    animation: spin 24s linear infinite;
+
+}
+
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+.mission-right {
+    text-align: left;
+
+}
+
+.mission-left {
+    text-align: right;
+
+}
+
+
+.mission-left,
+.mission-right {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+    /* justify-content: space-between; */
+
+}
+
+.mission-left,
+.mission-right p {
+    font-size: 14px;
+
+}
+
+.mission-right {
+
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.mission-left {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .mission-left h1{
+   
+} */
+.left-01,
+.left-02,
+.left-03 {
+
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+
+}
+
+.right-01,
+.right-02,
+.right-03 {
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.left-01 h2,
+.left-02 h2,
+.left-03 h2,
+.right-01 h2,
+.right-02 h2,
+.right-03 h2 {
+    color: transparent;
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+}
+
+
+.left-01 h2,
+.right-01 h2 {
+    -webkit-text-stroke-color: #FF7D39;
+}
+
+.left-01 h3,
+.right-01 h3 {
+    color: #FF7D39;
+}
+
+.left-02 h2,
+.right-02 h2 {
+    -webkit-text-stroke-color: #20536F;
+}
+
+.left-02 h3,
+.right-02 h3 {
+    color:  #20536F;
+}
+
+.left-03 h2,
+.right-03 h2 {
+    -webkit-text-stroke-color: #FF7D39;
+}
+
+.left-03 h3,
+.right-03 h3 {
+    color: #FF7D39;
+}
+
+
+.mission-head h1 {
+    color: #20536F;
+
+}
+
+
+
+
+
+.title-right {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.number {
+    font-size: 50px;
+}
+
+
+
+
+
+
+/* Responsive For Tablet Screen size 767px to 1023px START */
+@media (max-width:1023px) {
+
+
+
+.mission-middle img{
+    width: 60%;
+}
+
+    .mission-cover {
+
+        align-items: center;
+        margin-top: 300px;
+       padding: 0 100px;
+    }
+
+    .mission-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-01,
+    .left-02,
+    .left-03 {
+
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+
+
+    }
+
+    .mission-left,
+    .mission-right {
+        text-align: left;
+        gap: 15px;
+    }
+
+    .left-01,
+    .left-02,
+    .left-03,
+    .right-01,
+    .right-02,
+    .right-03 {
+        width: 100%;
+        align-items: center;
+    }
+    .left-01 p, .left-01 h3{
+        padding-left: 10px;
+    }
+
+}
+
+/* Responsive For Tablet Screen size 601px to 1023px END */
+
+
+
+
+
+/* Responsive For Mobile Screen size 1024px to 1920px START */
+@media (max-width:767px) {
+
+   
+
+.mission-middle img{
+    width: 70%;
+}
+
+    .mission-cover {
+
+        align-items: center;
+        margin-top: 600px;
+       padding: 0 30px;
+    }
+    .mission-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .mission-left,
+    .mission-right {
+        text-align: left;
+        gap: 15px;
+    }
+
+    .left-01,
+    .left-02,
+    .left-03,
+    .right-01,
+    .right-02,
+    .right-03 {
+
+        align-items: center;
+    }
+
+}
+
+/* Responsive For Mobile Screen size 1024px to 1920px END */
