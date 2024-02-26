@@ -6,16 +6,6 @@ import axios from 'axios';
 // import SignupValidation from '../Login_Signup/sigunpValidation';
 // import Axios from 'axios';
 
-
-
-
-  
-
-
-
-
-
-
 const SignupForm = () => {
 
   // {errors.lname && <span className='' style={{ color: 'red', fontSize : 13 }}>{errors.lname}</span>}
