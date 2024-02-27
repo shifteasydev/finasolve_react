@@ -13,14 +13,14 @@ const Homecard = () => {
                 <div className="card-left">
                     <Link to="/solutions">
                         <img src={Solution} alt="Card01-gif" />
-                        <h2 className='card-title'>Solutions</h2>
+                        <h2 className='card-title'>E-Trading & Analytics</h2>
                         <p className='card-description'>E2E Enterprise Global Data Solutions, Trading Screens, FIX Connectivity, Swift, Blockchain, Global ledger, Smart Contract based settlement.</p>
                     </Link>
                 </div>
                 <div className="card-right">
                     <Link to="/regulations">
                     <img src={Regulation} alt="Card01-gif" />
-                    <h2 className='card-title'>Regulation</h2>
+                    <h2 className='card-title'>FinTech Regulation</h2>
                     <p className='card-description'>Greater integration and compliance with regulations including MIFID-II, SFTR, MAR/MAD, CFTC, TRACE, NFA,Finra, EMIR, REMIT</p>
                     </Link>
                 </div>

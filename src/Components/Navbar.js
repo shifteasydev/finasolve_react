@@ -40,7 +40,7 @@ const Navbar = () => {
 
 
                     <div className="dropdown-menu web-view">
-                        <li className="dropdown-button">Solution</li>
+                        <li className="dropdown-button">Solutions</li>
 
 
                         <ul className="dropdown-list">
