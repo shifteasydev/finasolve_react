@@ -35,24 +35,24 @@ function FooterForm () {
       })}>
     <div className="form-names">
       <div className="f-name">
-      <input {...register("firstName")} className='' placeholder="First Name" />
+      <input {...register("firstName")} className='form-input' placeholder="Name" />
       <p className='error-msg'>{errors.firstName?.message}</p>
       </div>
-      <div className="l-name">
+      {/* <div className="l-name">
       <input {...register("lastName")} className=''  placeholder="Last Name" />
       <p className='error-msg'>{errors.lastName?.message}</p>
-      </div>
+      </div> */}
     </div>
       <input  type={'Email'}{...register("email")} placeholder="Email" />
       <p className='error-msg'>{errors.email?.message}</p>
       <input type={''}{...register("phone")} placeholder="Phone Number" />
       <p className='error-msg'>{errors.phone?.message}</p>
-      <select {...register("gender", { required: true })}>
+      {/* <select {...register("gender", { required: true })}>
         <option value="">Select Gender...</option>
         <option value="Male">Male</option>
         <option value="Female">Female</option>
-      </select>
-      <p className='error-msg'>{errors.gender?.message}</p>
+      </select> */}
+      {/* <p className='error-msg'>{errors.gender?.message}</p> */}
       <textarea {...register("comment")} placeholder="Comment" />
       <p className='error-msg'>{errors.comment?.message}</p>
       <p>{data}</p>

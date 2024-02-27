@@ -15,13 +15,13 @@ class Homehero extends React.Component {
             <>
                 <div className="hero-section">
                     <div className="hero-head">
-                        <h2>INTELLIGENT AUTONOMOUS COMPUTING</h2>
+                        <h2>INTELLIGENT AUTONOMOUS IT AND BUSINESS SOLUTIONS</h2>
 
                         <h1 className='type-text'>
 
                             <Typewriter
                                 options={{
-                                    strings: ['ENABLES MASSIVE', 'SCALABILITY'],
+                                    strings: ['ENABLES MASSIVE SCALABILITY', 'INCREASE PROFITABILTY'],
                                     autoStart: true,
                                     loop: true,
                                 }}
