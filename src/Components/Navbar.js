@@ -9,6 +9,17 @@ import { GoChevronDown } from "react-icons/go";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const handleclick = () => setIsOpen(!isOpen);
+  const [navbg,setNavbg] = useState(false);
+
+  const changecolour = () =>{
+    if(window.scrollY >= 80){
+      setNavbg(true)
+    }else{
+      setNavbg(false)
+    }
+  };
+  
+  window.addEventListener('scroll',changecolour);
 
   // const [click, setClick] = useState(false);
   // const toggleMenu = () => {
@@ -16,7 +27,7 @@ const Navbar = () => {
   // }
 
   return (
-    <div className="nav-bar">
+    <div className={navbg ? `navbar-bg` : 'nav-bar'}>
       <div className="nav-logo">
         <Link to="/">
           <img src={logo} alt="Logo-img"></img>
@@ -199,7 +210,7 @@ const Navbar = () => {
                   Website development
                 </Link>
               </li>
-              <li></li>
+              <li>Loans and Services</li>
             </ul>
           </div>
           <li>

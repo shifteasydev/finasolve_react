@@ -43,7 +43,7 @@ export const Homecard = () => {
           <div className="card">
             <img className="product-image" src={ValueAdd} alt="" />
             <h2 className="Title">E-TRADE ANALYTICS</h2>
-            <p className="subdata">This is a product description.</p>
+
             <Link to={"./solutions"}>
               <span>Read More...</span>
             </Link>
@@ -53,7 +53,6 @@ export const Homecard = () => {
           <div className="card">
             <img className="product-image" src={ValueAdd} alt="" />
             <h2 className="Title">FINTECH REGULATIONS</h2>
-            <p className="subdata">This is a product description.</p>
             <Link to={"./solutions"}>
               <span>Read More...</span>
             </Link>
@@ -61,10 +60,8 @@ export const Homecard = () => {
         </div>
         <div>
           <div className="card">
-             
             <img className="product-image" src={ValueAdd} alt="" />
             <h2 className="Title"></h2>
-            <p className="subdata">This is a product description.</p>
             <Link to={"./solutions"}>
               <span>Read More...</span>
             </Link>
@@ -72,10 +69,9 @@ export const Homecard = () => {
         </div>
         <div>
           <div className="card">
-             
             <img className="product-image" src={ValueAdd} alt="" />
             <h2 className="Title">Business Funding</h2>
-            <p className="subdata">This is a product description.</p>
+
             <Link to={"./solutions"}>
               <span>Read More...</span>
             </Link>
@@ -83,10 +79,9 @@ export const Homecard = () => {
         </div>
         <div>
           <div className="card">
-             
             <img className="product-image" src={ValueAdd} alt="" />
             <h2 className="Title">Financial Services</h2>
-            <p className="subdata">This is a product description.</p>
+
             <Link to={"./solutions"}>
               <span>Read More...</span>
             </Link>
@@ -94,10 +89,9 @@ export const Homecard = () => {
         </div>
         <div>
           <div className="card">
-             
             <img className="product-image" src={ValueAdd} alt="" />
             <h2 className="Title">Startup Funding</h2>
-            <p className="subdata">This is a product description.</p>
+
             <Link to={"./solutions"}>
               <span>Read More...</span>
             </Link>
@@ -105,10 +99,9 @@ export const Homecard = () => {
         </div>
         <div>
           <div className="card">
-             
             <img className="product-image" src={ValueAdd} alt="" />
             <h2 className="Title">Business Consulting</h2>
-            <p className="subdata">This is a product description.</p>
+
             <Link to={"./solutions"}>
               <span>Read More...</span>
             </Link>
@@ -116,10 +109,9 @@ export const Homecard = () => {
         </div>
         <div>
           <div className="card">
-             
             <img className="product-image" src={ValueAdd} alt="" />
             <h2 className="Title">IT Services</h2>
-            <p className="subdata">This is a product description.</p>
+
             <Link to={"./solutions"}>
               <span>Read More...</span>
             </Link>
@@ -127,10 +119,9 @@ export const Homecard = () => {
         </div>
         <div>
           <div className="card">
-             
             <img className="product-image" src={ValueAdd} alt="" />
             <h2 className="Title">Digital Transformation</h2>
-            <p className="subdata">This is a product description.</p>
+
             <Link to={"./solutions"}>
               <span>Read More...</span>
             </Link>
@@ -138,10 +129,9 @@ export const Homecard = () => {
         </div>
         <div>
           <div className="card">
-             
             <img className="product-image" src={ValueAdd} alt="" />
             <h2 className="Title">Digital Marketing</h2>
-            <p className="subdata">This is a product description.</p>
+
             <Link to={"./solutions"}>
               <span>Read More...</span>
             </Link>
@@ -149,10 +139,9 @@ export const Homecard = () => {
         </div>
         <div>
           <div className="card">
-             
             <img className="product-image" src={ValueAdd} alt="" />
             <h2 className="Title">Cloud Computing</h2>
-            <p className="subdata">This is a product description.</p>
+
             <Link to={"./solutions"}>
               <span>Read More...</span>
             </Link>
@@ -160,10 +149,9 @@ export const Homecard = () => {
         </div>
         <div>
           <div className="card">
-             
             <img className="product-image" src={ValueAdd} alt="" />
             <h2 className="Title">Big Data and Analytics</h2>
-            <p className="subdata">This is a product description.</p>
+
             <Link to={"./solutions"}>
               <span>Read More...</span>
             </Link>
@@ -171,10 +159,9 @@ export const Homecard = () => {
         </div>
         <div>
           <div className="card">
-             
             <img className="product-image" src={ValueAdd} alt="" />
             <h2 className="Title">Business Intelligence</h2>
-            <p className="subdata">This is a product description.</p>
+
             <Link to={"./solutions"}>
               <span>Read More...</span>
             </Link>
@@ -182,10 +169,9 @@ export const Homecard = () => {
         </div>
         <div>
           <div className="card">
-             
             <img className="product-image" src={ValueAdd} alt="" />
             <h2 className="Title">Azure Cloud Data Engineering</h2>
-            <p className="subdata">This is a product description.</p>
+
             <Link to={"./solutions"}>
               <span>Read More...</span>
             </Link>
@@ -193,10 +179,9 @@ export const Homecard = () => {
         </div>
         <div>
           <div className="card">
-             
             <img className="product-image" src={ValueAdd} alt="" />
             <h2 className="Title">AWS Cloud Data Engineering</h2>
-            <p className="subdata">This is a product description.</p>
+
             <Link to={"./solutions"}>
               <span>Read More...</span>
             </Link>
@@ -204,10 +189,9 @@ export const Homecard = () => {
         </div>
         <div>
           <div className="card">
-             
             <img className="product-image" src={ValueAdd} alt="" />
             <h2 className="Title">Google Cloud and Analytics</h2>
-            <p className="subdata">This is a product description.</p>
+
             <Link to={"./solutions"}>
               <span>Read More...</span>
             </Link>
@@ -215,10 +199,9 @@ export const Homecard = () => {
         </div>
         <div>
           <div className="card">
-             
             <img className="product-image" src={ValueAdd} alt="" />
             <h2 className="Title">AI and MLOPS services</h2>
-            <p className="subdata">This is a product description.</p>
+
             <Link to={"./solutions"}>
               <span>Read More...</span>
             </Link>
@@ -226,10 +209,9 @@ export const Homecard = () => {
         </div>
         <div>
           <div className="card">
-             
             <img className="product-image" src={ValueAdd} alt="" />
             <h2 className="Title">EPOS</h2>
-            <p className="subdata">This is a product description.</p>
+
             <Link to={"./solutions"}>
               <span>Read More...</span>
             </Link>
@@ -237,10 +219,9 @@ export const Homecard = () => {
         </div>
         <div>
           <div className="card">
-             
             <img className="product-image" src={ValueAdd} alt="" />
             <h2 className="Title">Payment Gateway</h2>
-            <p className="subdata">This is a product description.</p>
+
             <Link to={"./solutions"}>
               <span>Read More...</span>
             </Link>
@@ -248,10 +229,9 @@ export const Homecard = () => {
         </div>
         <div>
           <div className="card">
-             
             <img className="product-image" src={ValueAdd} alt="" />
             <h2 className="Title">ERP and CRM</h2>
-            <p className="subdata">This is a product description.</p>
+
             <Link to={"./solutions"}>
               <span>Read More...</span>
             </Link>
@@ -259,10 +239,9 @@ export const Homecard = () => {
         </div>
         <div>
           <div className="card">
-             
             <img className="product-image" src={ValueAdd} alt="" />
             <h2 className="Title">Mergers and Acquisitions</h2>
-            <p className="subdata">This is a product description.</p>
+
             <Link to={"./solutions"}>
               <span>Read More...</span>
             </Link>
