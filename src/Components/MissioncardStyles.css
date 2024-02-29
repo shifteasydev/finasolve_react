@@ -6,8 +6,9 @@
 .mission-cover {
 
     padding: 30px 30px;
-    margin-top: 280px;
-    display: flex;
+    /* margin-top: 280px; */
+    display: flex;text-align: center;
+
     flex-direction: column;
 
 
@@ -212,7 +213,7 @@
     .mission-cover {
 
         align-items: center;
-        margin-top: 300px;
+
        padding: 0 100px;
     }
 
@@ -271,7 +272,6 @@
     .mission-cover {
 
         align-items: center;
-        margin-top: 600px;
        padding: 0 30px;
     }
     .mission-card {

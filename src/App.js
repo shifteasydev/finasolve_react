@@ -25,6 +25,21 @@ import PaymentGateway from './Routes/Solutions/PaymentGateway';
 import DigitalMarketing from './Routes/Solutions/DigitalMarketing';
 import ErpandCrm from './Routes/Solutions/Erp&CRM';
 import MergersandAcquisitions from './Routes/Solutions/Mergers&Acquisitions';
+// Products Page Imported
+import ManagementConsulting from './Routes/Products/ManagementConsulting';
+import FinancialConsulting from './Routes/Products/FinancialConsulting';
+import ITConsulting from './Routes/Products/IT-consulting';
+import Startupincubations from './Routes/Products/Startupincubations';
+import RecruitmentSolutions from './Routes/Products/RecruitmentSolutions';
+import Egovernance from './Routes/Products/Egovernance';
+import ComplianceAudit from './Routes/Products/Compliance&Audit';
+import Cybersecurity from './Routes/Products/Cybersecurity';
+import NetworkSolutionsTelecom from './Routes/Products/NetworkSolutionsTelecom';
+import B2Bmarketing from './Routes/Products/B2Bmarketing';
+import LeadGenerations from './Routes/Products/LeadGenerations';
+import CallCenter from './Routes/Products/CallCenter';
+import AppDevelopment from './Routes/Products/AppDevelopments';
+import WebsiteDevelopment from './Routes/Products/WebsiteDevelopment';
 
 import Login from '../src/Routes/Login';
 import Signup from '../src/Routes/Signup';
@@ -35,6 +50,7 @@ import { Routes,Route } from 'react-router-dom';
 
 
 function App() {
+  
   return (
 
     <>
@@ -61,6 +77,26 @@ function App() {
       <Route path="/solutions/paymentgateway" element={<PaymentGateway/>} />
       <Route path="/solutions/erp-crm" element={<ErpandCrm/>} />
       <Route path="/solutions/Mergers-Acquisitions" element={<MergersandAcquisitions/>} />
+
+                      {/* PROUCTS PAGE  IS ADDED HERE */}
+
+      <Route path="/Products/ManagementConsulting" element={<ManagementConsulting/>} />
+      <Route path="/Products/FinancialConsulting" element={<FinancialConsulting/>} />
+      <Route path="/products/itconsulting" element={<ITConsulting/>} />
+      <Route path="/products/startupincubations" element={<Startupincubations/>} />
+      <Route path="/products/recruitmentsolutions" element={<RecruitmentSolutions/>} />
+      <Route path="/products/egovernance" element={<Egovernance/>} />
+      <Route path="/products/compliance&audit" element={<ComplianceAudit/>} />
+      <Route path="/products/cybersecurity" element={<Cybersecurity/>} />
+      <Route path="/products/networksolutions" element={<NetworkSolutionsTelecom/>} />
+      <Route path="/products/b2bmarketing" element={<B2Bmarketing/>} />
+      <Route path="/products/leadgenerations" element={<LeadGenerations/>} />
+      <Route path="/products/callcenter" element={<CallCenter/>} />
+      <Route path="/products/appdevelopment" element={<AppDevelopment/>} />
+      <Route path="/products/websitedevelopment" element={<WebsiteDevelopment/>} />
+
+
+
 
 
       <Route path="/regulations" element={<Regulation/>} />

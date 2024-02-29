@@ -44,7 +44,7 @@
 
 }
 .form-input{
-  max-width: 100% !important;
+  max-width: 100%;
 
 
 }
@@ -56,14 +56,14 @@
 
 }
 .form-names{
-  width: 154%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   gap: 10px;
   justify-content: space-between;
 }
 .f-name{
-  width: 50%;
+  width: 100% !important;
   gap: 10px;
 }
 
@@ -135,13 +135,13 @@ input[type="submit"]:hover {
   @media (max-width:767px) {
 
     .form-names{
-      width: 154%;
+      width: 100%;
       display: flex;
       flex-direction:column;
  gap: 0;
     }
 .f-name,.l-name{
-  width: 100%;
+  width: 100% !important;
 }
 
 input[type="submit"] {
