@@ -7,7 +7,7 @@ const MisssionCard = () => {
     <div>
         <div className="mission-cover">
                 <div className="mission-head">
-                    <h1>Our Mission</h1>
+                    <h1>Our Missions</h1>
                 </div>
                 <div className="mission-card">
                     <div className="mission-left">
@@ -40,10 +40,10 @@ const MisssionCard = () => {
 
                     <div className="mission-right">
                         <div className="right-01">
-                            <h2 className='number'>04</h2>
+                            <h2 className='number'>06</h2>
                             <div className="title-right">
-                            <h3 className='headings head-right '>Liquidity and capital improvement</h3>
-                            <p>Can reduce locked-in capital and provides increased transparency</p>
+                            <h3 className='headings head-right '>Counterparty risk reduction</h3>
+                            <p>Agreements can be codified and executed in a shared, immutable environment</p>
                             </div>
                         </div>
                         <div className="right-02">
@@ -54,10 +54,10 @@ const MisssionCard = () => {
                             </div>
                         </div>
                         <div className="right-03">
-                            <h2 className='number'>06</h2>
+                            <h2 className='number'>04</h2>
                             <div className="title-right">
-                            <h3 className='headings head-right '>Counterparty risk reduction</h3>
-                            <p>Agreements can be codified and executed in a shared, immutable environment</p>
+                            <h3 className='headings head-right '>Liquidity and capital improvement</h3>
+                            <p>Can reduce locked-in capital and provides increased transparency</p>
                             </div>
                         </div>
                     </div>

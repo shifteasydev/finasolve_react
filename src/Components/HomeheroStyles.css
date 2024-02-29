@@ -3,7 +3,7 @@
 
 :root {
     --navbar-Height: 80px;
-    --HeroVideo-Height: 550px;
+    --HeroVideo-Height: 100vh;
 
 }
 
@@ -47,14 +47,12 @@
     width: 100%;
     height: var(--HeroVideo-Height);
     object-fit: cover;
-    z-index:  2;
 }
 
 .hero-head h3,
 h1,
 h2 {
     color: white;
-    text-shadow: 2px 2px 3px #000000;
 }
 
 .hero-head h2 {
