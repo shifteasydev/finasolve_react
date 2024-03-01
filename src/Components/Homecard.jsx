@@ -51,7 +51,7 @@ export const Homecard = () => {
         <div>
           <div className="card">
             <img className="product-image" src={ValueAdd} alt="" />
-            <h2 className="Title">E-TRADE ANALYTICS</h2>
+            <h2 className="Title">E-TRADING & ANALYTICS</h2>
 
             <Link to={"./solutions"}>
               <span>Read More...</span>
@@ -61,7 +61,7 @@ export const Homecard = () => {
         <div>
           <div className="card">
             <img className="product-image" src={ValueAdd} alt="" />
-            <h2 className="Title">FINTECH REGULATIONS</h2>
+            <h2 className="Title">FINTECH & REGULATIONS</h2>
             <Link to={"./solutions"}>
               <span>Read More...</span>
             </Link>
@@ -70,7 +70,16 @@ export const Homecard = () => {
         <div>
           <div className="card">
             <img className="product-image" src={ValueAdd} alt="" />
-            <h2 className="Title"></h2>
+            <h2 className="Title">Home Loans & Insurance</h2>
+            <Link to={"./solutions"}>
+              <span>Read More...</span>
+            </Link>
+          </div>
+        </div>
+        <div>
+          <div className="card">
+            <img className="product-image" src={ValueAdd} alt="" />
+            <h2 className="Title">Accounting & Audit</h2>
             <Link to={"./solutions"}>
               <span>Read More...</span>
             </Link>
@@ -219,7 +228,7 @@ export const Homecard = () => {
         <div>
           <div className="card">
             <img className="product-image" src={ValueAdd} alt="" />
-            <h2 className="Title">EPOS</h2>
+            <h2 className="Title">eCommerce & EPOS</h2>
 
             <Link to={"./solutions"}>
               <span>Read More...</span>
