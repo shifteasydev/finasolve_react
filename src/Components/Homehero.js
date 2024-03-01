@@ -11,6 +11,7 @@ class Homehero extends React.Component {
       <>
         <div className="hero-section">
           <div className="hero-head">
+           <h3>OUR NEXT GENERATION</h3>
             <h2>INTELLIGENT AUTONOMOUS IT AND BUSINESS SOLUTIONS</h2>
 
             <h1 className="type-text">
@@ -18,7 +19,7 @@ class Homehero extends React.Component {
                 options={{
                   strings: [
                     "ENABLES MASSIVE SCALABILITY",
-                    "INCREASE PROFITABILTY",
+                    "INCREASES PROFITABILTY",
                   ],
                   autoStart: true,
                   loop: true,

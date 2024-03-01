@@ -77,19 +77,19 @@ const Navbar = () => {
               </li>
               <li>
                 <Link to="/solutions/financial-services">
-                  Financial Services
+                  FS and FinTech Tools
                 </Link>
               </li>
               <li>
-                <Link to="/solutions/startup-funding">Startup Funding</Link>
+                <Link to="/solutions/startup-funding">Startup Funding Tracker</Link>
               </li>
               <li>
                 <Link to="/solutions/business-consulting">
-                  Business Consulting
+                  Trading Tools
                 </Link>
               </li>
               <li>
-                <Link to="/solutions/it-service">IT Services</Link>
+                <Link to="/solutions/it-service">Agile IT, PMO & ITIL</Link>
               </li>
               <li>
                 <Link to="/solutions/digital-transformation">
@@ -129,21 +129,21 @@ const Navbar = () => {
               </li>
               <li>
                 <Link to="/solutions/aiandMLOPS-services">
-                  AI and MLOPS services
+                  AI and MLOPS Testing Tools
                 </Link>
               </li>
               <li>
-                <Link to="/solutions/epos">EPOS</Link>
+                <Link to="/solutions/epos">EPOS & SaaS platforms</Link>
               </li>
               <li>
-                <Link to="/solutions/paymentgateway">Payment Gateway</Link>
+                <Link to="/solutions/paymentgateway">Payment Gateways</Link>
               </li>
               <li>
                 <Link to="/solutions/erp-crm">ERP and CRM</Link>
               </li>
               <li>
                 <Link to="/solutions/Mergers-Acquisitions">
-                  Mergers and Acquisitions
+                  M&A Deal Tracking
                 </Link>
               </li>
             </ul>
@@ -160,11 +160,6 @@ const Navbar = () => {
                          )}
                     </div> */}
 
-          <li>
-            <Link className={navhead ? `navhead` : "navhead-bg"} to="/regulations">
-              Regulations
-            </Link>
-          </li>
           <li className="mobile-view">
             <Link to="#">Services</Link>
           </li>
@@ -209,7 +204,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link to="/products/networksolutions">
-                  Network solutions – telecom
+                  Telecom and Network
                 </Link>
               </li>
               <li>
@@ -235,6 +230,11 @@ const Navbar = () => {
                 </Link></li>
             </ul>
           </div>
+          <li>
+            <Link className={navhead ? `navhead` : "navhead-bg"} to="/regulations">
+              Fintech
+            </Link>
+          </li>
           <li>
             <Link className={navhead ? `navhead` : "navhead-bg"} to="/contact-us">
               Contact Us

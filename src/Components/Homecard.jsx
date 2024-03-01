@@ -98,6 +98,16 @@ export const Homecard = () => {
         <div>
           <div className="card">
             <img className="product-image" src={ValueAdd} alt="" />
+            <h2 className="Title">Mergers and Acquisitions</h2>
+
+            <Link to={"./solutions"}>
+              <span>Read More...</span>
+            </Link>
+          </div>
+        </div>
+        <div>
+          <div className="card">
+            <img className="product-image" src={ValueAdd} alt="" />
             <h2 className="Title">Financial Services</h2>
 
             <Link to={"./solutions"}>
@@ -128,7 +138,7 @@ export const Homecard = () => {
         <div>
           <div className="card">
             <img className="product-image" src={ValueAdd} alt="" />
-            <h2 className="Title">IT Services</h2>
+            <h2 className="Title">IT Services & Consulting</h2>
 
             <Link to={"./solutions"}>
               <span>Read More...</span>
@@ -158,7 +168,7 @@ export const Homecard = () => {
         <div>
           <div className="card">
             <img className="product-image" src={ValueAdd} alt="" />
-            <h2 className="Title">Cloud Computing</h2>
+            <h2 className="Title">Generative AI, LLM, RPA</h2>
 
             <Link to={"./solutions"}>
               <span>Read More...</span>
@@ -188,7 +198,7 @@ export const Homecard = () => {
         <div>
           <div className="card">
             <img className="product-image" src={ValueAdd} alt="" />
-            <h2 className="Title">Azure Cloud Data Engineering</h2>
+            <h2 className="Title">Data Science Engineering</h2>
 
             <Link to={"./solutions"}>
               <span>Read More...</span>
@@ -198,7 +208,27 @@ export const Homecard = () => {
         <div>
           <div className="card">
             <img className="product-image" src={ValueAdd} alt="" />
-            <h2 className="Title">AWS Cloud Data Engineering</h2>
+            <h2 className="Title">Private Cloud SaaS PaaS</h2>
+
+            <Link to={"./solutions"}>
+              <span>Read More...</span>
+            </Link>
+          </div>
+        </div>
+        <div>
+          <div className="card">
+            <img className="product-image" src={ValueAdd} alt="" />
+            <h2 className="Title">AWS Cloud Engineering</h2>
+
+            <Link to={"./solutions"}>
+              <span>Read More...</span>
+            </Link>
+          </div>
+        </div>
+        <div>
+          <div className="card">
+            <img className="product-image" src={ValueAdd} alt="" />
+            <h2 className="Title">Azure Cloud Engineering</h2>
 
             <Link to={"./solutions"}>
               <span>Read More...</span>
@@ -218,7 +248,7 @@ export const Homecard = () => {
         <div>
           <div className="card">
             <img className="product-image" src={ValueAdd} alt="" />
-            <h2 className="Title">AI and MLOPS services</h2>
+            <h2 className="Title">DevOps and AI/MLOps</h2>
 
             <Link to={"./solutions"}>
               <span>Read More...</span>
@@ -248,23 +278,14 @@ export const Homecard = () => {
         <div>
           <div className="card">
             <img className="product-image" src={ValueAdd} alt="" />
-            <h2 className="Title">ERP and CRM</h2>
+            <h2 className="Title">ERP, CRM and B2B Leads</h2>
 
             <Link to={"./solutions"}>
               <span>Read More...</span>
             </Link>
           </div>
         </div>
-        <div>
-          <div className="card">
-            <img className="product-image" src={ValueAdd} alt="" />
-            <h2 className="Title">Mergers and Acquisitions</h2>
 
-            <Link to={"./solutions"}>
-              <span>Read More...</span>
-            </Link>
-          </div>
-        </div>
       </Carousel>
     </div>
   );
