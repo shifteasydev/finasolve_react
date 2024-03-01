@@ -4,22 +4,31 @@ import logo from "../Assets/Finasolve LOGO.svg";
 import "../Components/Navbarstyles.css";
 import { GoChevronDown } from "react-icons/go";
 
-
-
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const handleclick = () => setIsOpen(!isOpen);
-  const [navbg,setNavbg] = useState(false);
+  const [navbg, setNavbg] = useState(false);
+  const [navhead, setNavhead] = useState(false);
 
-  const changecolour = () =>{
-    if(window.scrollY >= 80){
-      setNavbg(true)
-    }else{
-      setNavbg(false)
+  const changecolour = () => {
+    if (window.scrollY >= 80) {
+      setNavbg(true);
+    } else {
+      setNavbg(false);
     }
   };
-  
-  window.addEventListener('scroll',changecolour);
+  const navbgcolur = () => {
+    if (window.scrollY >= 80) {
+      setNavhead(true);
+    } else {
+      setNavhead(false);
+    }
+  };
+
+
+  window.addEventListener("scroll", changecolour);
+  window.addEventListener("scroll", navbgcolur);
+
 
   // const [click, setClick] = useState(false);
   // const toggleMenu = () => {
@@ -27,7 +36,7 @@ const Navbar = () => {
   // }
 
   return (
-    <div className={navbg ? `navbar-bg` : 'nav-bar'}>
+    <div className={navbg ? `navbar-bg` : "nav-bar"}>
       <div className="nav-logo">
         <Link to="/">
           <img src={logo} alt="Logo-img"></img>
@@ -43,22 +52,28 @@ const Navbar = () => {
         </ul>
         <ul className={isOpen ? "nav-item active" : "nav-item"}>
           <li>
-            <Link to="/">Home</Link>
+            <Link className={navhead ? `navhead` : "navhead-bg"} to="/">
+              Home
+            </Link>
           </li>
 
           <li>
-            <Link to="/about-us">About Us</Link>
+            <Link className={navhead ? `navhead` : "navhead-bg"} to="/about-us">
+              About Us
+            </Link>
           </li>
           <li className="mobile-view">
             <Link to="/solutions">Solutions</Link>
           </li>
 
           <div className="dropdown-menu web-view">
-            <li className="dropdown-button">Solutions <GoChevronDown className="down-aero"/> </li>
+            <li className="dropdown-button" id={navhead ? `navhead` : "navhead-bg"}>
+              Solutions <GoChevronDown className="down-aero" />{" "}
+            </li>
 
             <ul className="dropdown-list">
               <li>
-                <Link to="/solutions/business-funding">Business Funding  </Link>
+                <Link to="/solutions/business-funding">Business Funding </Link>
               </li>
               <li>
                 <Link to="/solutions/financial-services">
@@ -146,14 +161,18 @@ const Navbar = () => {
                     </div> */}
 
           <li>
-            <Link to="/regulations">Regulations</Link>
+            <Link className={navhead ? `navhead` : "navhead-bg"} to="/regulations">
+              Regulations
+            </Link>
           </li>
           <li className="mobile-view">
             <Link to="#">Services</Link>
           </li>
           <div className="dropdown-menu web-view">
-            <li>
-              <Link className="dropdown-button">Services  <GoChevronDown className="down-aero"/> </Link>
+            <li className={navhead ? `navhead` : "navhead-bg"}>
+              <Link className="dropdown-button" id={navhead ? `navhead` : "navhead-bg"}>
+                Services <GoChevronDown className="down-aero" />{" "}
+              </Link>
             </li>
             <ul className="dropdown-list">
               <li>
@@ -210,11 +229,16 @@ const Navbar = () => {
                   Website development
                 </Link>
               </li>
-              <li>Loans and Services</li>
+              <li>
+              <Link to="/products/websitedevelopment">
+                  Loans and Services
+                </Link></li>
             </ul>
           </div>
           <li>
-            <Link to="/contact-us">Contact Us</Link>
+            <Link className={navhead ? `navhead` : "navhead-bg"} to="/contact-us">
+              Contact Us
+            </Link>
           </li>
 
           <div className="login-btn">

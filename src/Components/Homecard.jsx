@@ -9,16 +9,24 @@ export const Homecard = () => {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
+      breakpoint: { max: 4000, min: 2500 },
+      items: 6,
+    },
+    superlargedesktop: {
+      breakpoint: { max: 2400, min: 1024 },
+      items: 6,
+    },
+    largedesktop: {
+      breakpoint: { max: 2200, min: 1024 },
       items: 5,
     },
     desktop: {
-      breakpoint: { max: 3000, min: 1024 },
+      breakpoint: { max: 1800, min: 1024 },
       items: 4,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2,
+      items: 3,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
@@ -35,6 +43,7 @@ export const Homecard = () => {
         autoPlaySpeed={1000}
         keyBoardControl={true}
         ssr={true}
+        infinite={true}
         loop={true}
         // centerMode={true}
         itemClass="carousel-item-padding-40-px"
