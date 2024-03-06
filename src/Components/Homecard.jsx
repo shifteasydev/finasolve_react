@@ -5,6 +5,7 @@ import "react-multi-carousel/lib/styles.css";
 import "../Components/HomecardStyles.css";
 import ValueAdd from "../Assets/new-regulation.svg";
 
+
 export const Homecard = () => {
   const responsive = {
     superLargeDesktop: {
@@ -50,7 +51,7 @@ export const Homecard = () => {
       >
         <div>
           <div className="card">
-            <img className="product-image" src={ValueAdd} alt="" />
+            <img className="product-image" src="./Card-icons/3 Illustration.png" alt="" />
             <h2 className="Title">E-TRADING & ANALYTICS</h2>
             <Link to={"./solutions"}>
               <span>Read More...</span>
@@ -59,7 +60,7 @@ export const Homecard = () => {
         </div>
         <div>
           <div className="card">
-            <img className="product-image" src={ValueAdd} alt="" />
+            <img className="product-image" src="./Card-icons/FS_and_FinTech_Tools.png" alt="" />
             <h2 className="Title">FINTECH & REGULATIONS</h2>
             <Link to={"./solutions"}>
               <span>Read More...</span>
@@ -86,9 +87,8 @@ export const Homecard = () => {
         </div>
         <div>
           <div className="card">
-            <img className="product-image" src={ValueAdd} alt="" />
+            <img className="product-image" src="./Card-icons/Business Funding-06.png" alt="" />
             <h2 className="Title">Business Funding</h2>
-
             <Link to={"/solutions/business-funding"}>
               <span>Read More...</span>
             </Link>
@@ -137,7 +137,6 @@ export const Homecard = () => {
           <div className="card">
             <img className="product-image" src={ValueAdd} alt="" />
             <h2 className="Title">IT Services & Consulting</h2>
-
             <Link to={"/solutions/it-service"}>
               <span>Read More...</span>
             </Link>
@@ -145,7 +144,7 @@ export const Homecard = () => {
         </div>
         <div>
           <div className="card">
-            <img className="product-image" src={ValueAdd} alt="" />
+            <img className="product-image" src="./Card-icons/Digital Transformation.png" alt="" />
             <h2 className="Title">Digital Transformation</h2>
 
             <Link to={"/solutions/digital-transformation"}>
@@ -155,7 +154,7 @@ export const Homecard = () => {
         </div>
         <div>
           <div className="card">
-            <img className="product-image" src={ValueAdd} alt="" />
+            <img className="product-image" src="./Card-icons/Digital Marketing.png" alt="" />
             <h2 className="Title">Digital Marketing</h2>
 
             <Link to={"/solutions/digital-marketing"}>
@@ -165,17 +164,16 @@ export const Homecard = () => {
         </div>
         <div>
           <div className="card">
-            <img className="product-image" src={ValueAdd} alt="" />
+            <img className="product-image" src="./Card-icons/Cloud_Computing.png" alt="" />
             <h2 className="Title">Generative AI, LLM, RPA</h2>
-
-            <Link to={"/solutions/cloud-computing"}>
+            <Link to={"/solutions/cloudcomputing"}>
               <span>Read More...</span>
             </Link>
           </div>
         </div>
         <div>
           <div className="card">
-            <img className="product-image" src={ValueAdd} alt="" />
+            <img className="product-image" src="./Card-icons/Big_Data_and_Analytics.png" alt="" />
             <h2 className="Title">Big Data and Analytics</h2>
 
             <Link to={"/solutions/bigData-analytics"}>
@@ -185,9 +183,8 @@ export const Homecard = () => {
         </div>
         <div>
           <div className="card">
-            <img className="product-image" src={ValueAdd} alt="" />
+            <img className="product-image" src="./Card-icons/Business-Intelligence.png" alt="" />
             <h2 className="Title">Business Intelligence</h2>
-
             <Link to={"/solutions/business-intelligence"}>
               <span>Read More...</span>
             </Link>
