@@ -25,6 +25,14 @@ import PaymentGateway from './Routes/Solutions/PaymentGateway';
 import DigitalMarketing from './Routes/Solutions/DigitalMarketing';
 import ErpandCrm from './Routes/Solutions/Erp&CRM';
 import MergersandAcquisitions from './Routes/Solutions/Mergers&Acquisitions';
+import Sass from './Routes/Solutions/sass';
+import Accounting from './Routes/Solutions/accounting';
+import Homeloans from './Routes/Solutions/homeloans';
+import Fintech from './Routes/Solutions/fintech';
+import DatascienceEngineering from './Routes/Solutions/Datascience-Engineering';
+import Etrading from './Routes/Solutions/Etrading';
+import Gamingapp from './Routes/Solutions/gamingapp';
+import SaaSweb from './Routes/Solutions/saasweb';
 // Products Page Imported
 import ManagementConsulting from './Routes/Products/ManagementConsulting';
 import FinancialConsulting from './Routes/Products/FinancialConsulting';
@@ -77,6 +85,14 @@ function App() {
       <Route path="/solutions/paymentgateway" element={<PaymentGateway/>} />
       <Route path="/solutions/erp-crm" element={<ErpandCrm/>} />
       <Route path="/solutions/Mergers-Acquisitions" element={<MergersandAcquisitions/>} />
+      <Route path="/solutions/Etrading" element={<Etrading/>} />
+      <Route path="/solutions/accounting" element={<Accounting/>} />
+      <Route path="/solutions/homeloans" element={<Homeloans/>} />
+      <Route path="/solutions/sass" element={<Sass/>} />
+      <Route path="/solutions/fintech" element={<Fintech/>} />
+      <Route path="/solutions/Datascience-Engineering" element={<DatascienceEngineering/>} />
+      <Route path="/solutions/gamingapp" element={<Gamingapp/>} />
+      <Route path="/solutions/saasweb" element={<SaaSweb/>} />
 
                       {/* PROUCTS PAGE  IS ADDED HERE */}
 
@@ -94,6 +110,7 @@ function App() {
       <Route path="/products/callcenter" element={<CallCenter/>} />
       <Route path="/products/appdevelopment" element={<AppDevelopment/>} />
       <Route path="/products/websitedevelopment" element={<WebsiteDevelopment/>} />
+
 
 
 

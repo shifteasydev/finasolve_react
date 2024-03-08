@@ -11,7 +11,7 @@ const ITService = () => {
     <div>
 <ScrollToTop/>
 <Navbar/>
-<AboutHero heading="Regulations" img={RegulationHero} details="Revolutionise the methods your compliance team manages the regulatory changes."/>
+<AboutHero heading="ITService" img={RegulationHero} details="Revolutionise the methods your compliance team manages the regulatory changes."/>
 <Footer/>
 
     </div>

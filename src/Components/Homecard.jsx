@@ -53,7 +53,7 @@ export const Homecard = () => {
           <div className="card">
             <img className="product-image" src="./Card-icons/E Trading Analysis.png" alt="" />
             <h2 className="Title">E-TRADING & ANALYTICS</h2>
-            <Link to={"./solutions"}>
+            <Link to={"./solutions/etrading"}>
               <span>Read More...</span>
             </Link>
           </div>
@@ -62,7 +62,7 @@ export const Homecard = () => {
           <div className="card">
             <img className="product-image" src="./Card-icons/FS_and_FinTech_Tools.png" alt="" />
             <h2 className="Title">FINTECH & REGULATIONS</h2>
-            <Link to={"./solutions"}>
+            <Link to={"./solutions/fintech"}>
               <span>Read More...</span>
             </Link>
           </div>
@@ -71,7 +71,7 @@ export const Homecard = () => {
           <div className="card">
             <img className="product-image" src="./Card-icons/Home Loan.png" alt="" />
             <h2 className="Title">Home Loans & Insurance</h2>
-            <Link to={"./solutions"}>
+            <Link to={"./solutions/homeloans"}>
               <span>Read More...</span>
             </Link>
           </div>
@@ -80,7 +80,7 @@ export const Homecard = () => {
           <div className="card">
             <img className="product-image" src="./Card-icons/accounting.png" alt="" />
             <h2 className="Title">Accounting & Audit</h2>
-            <Link to={"./businessfunding"}>
+            <Link to={"./solutions/accounting"}>
               <span>Read More...</span>
             </Link>
           </div>
@@ -98,7 +98,6 @@ export const Homecard = () => {
           <div className="card">
             <img className="product-image" src={ValueAdd} alt="" />
             <h2 className="Title">Mergers and Acquisitions</h2>
-
             <Link to={"/solutions/Mergers-Acquisitionss"}>
               <span>Read More...</span>
             </Link>
@@ -117,7 +116,6 @@ export const Homecard = () => {
           <div className="card">
             <img className="product-image" src="./Card-icons/business-startup.png" alt="" />
             <h2 className="Title">Startup Funding</h2>
-
             <Link to={"/solutions/startup-funding"}>
               <span>Read More...</span>
             </Link>
@@ -127,7 +125,7 @@ export const Homecard = () => {
           <div className="card">
             <img className="product-image" src="./Card-icons/business-consulting.png" alt="" />
             <h2 className="Title">Business Consulting</h2>
-            <Link to={"./solutions"}>
+            <Link to={"./solutions/Business-Consulting"}>
               <span>Read More...</span>
             </Link>
           </div>
@@ -192,7 +190,7 @@ export const Homecard = () => {
           <div className="card">
             <img className="product-image" src="./Card-icons/Data sci.png" alt="" />
             <h2 className="Title">Data Science Engineering</h2>
-            <Link to={"./solutions"}>
+            <Link to={"./solutions/Datascience-Engineering"}>
               <span>Read More...</span>
             </Link>
           </div>
@@ -201,7 +199,7 @@ export const Homecard = () => {
           <div className="card">
             <img className="product-image" src="./Card-icons/Saas.png" alt="" />
             <h2 className="Title">Private Cloud SaaS PaaS</h2>
-            <Link to={"./solutions"}>
+            <Link to={"./solutions/sass"}>
               <span>Read More...</span>
             </Link>
           </div>

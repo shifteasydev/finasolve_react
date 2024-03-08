@@ -19,10 +19,24 @@ import EPos from "../../Assets/solution/pos-terminal.png";
 import PaymentGateway from "../../Assets/solution/gateway.png";
 import Erpcrm from "../../Assets/solution/erp.png";
 import MergersAcquisitions from "../../Assets/solution/MergersAcquisitions.png";
+import SaaS from "../../Assets/solution/Saas.svg";
+import Gaming from "../../Assets/solution/gaming.jpg";
 
 
 
 const SolutionIconData = [
+    {
+        solIcon: SaaS,
+        solTitle: "SaaS Website Development",
+        link:"/solutions/saasweb",
+        
+    },
+    {
+        solIcon: Gaming,
+        solTitle: "Gaming Apps Development",
+        link:"/solutions/gamingapp",
+        
+    },
     {
         solIcon: BusinessFunding,
         solTitle: "Business Funding",

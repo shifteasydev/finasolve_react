@@ -25,10 +25,8 @@ const Navbar = () => {
     }
   };
 
-
   window.addEventListener("scroll", changecolour);
   window.addEventListener("scroll", navbgcolur);
-
 
   // const [click, setClick] = useState(false);
   // const toggleMenu = () => {
@@ -67,7 +65,10 @@ const Navbar = () => {
           </li>
 
           <div className="dropdown-menu web-view">
-            <li className="dropdown-button" id={navhead ? `navhead` : "navhead-bg"}>
+            <li
+              className="dropdown-button"
+              id={navhead ? `navhead` : "navhead-bg"}
+            >
               Solutions <GoChevronDown className="down-aero" />{" "}
             </li>
 
@@ -81,12 +82,12 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/solutions/startup-funding">Startup Funding Tracker</Link>
+                <Link to="/solutions/startup-funding">
+                  Startup Funding Tracker
+                </Link>
               </li>
               <li>
-                <Link to="/solutions/business-consulting">
-                  Trading Tools
-                </Link>
+                <Link to="/solutions/business-consulting">Trading Tools</Link>
               </li>
               <li>
                 <Link to="/solutions/it-service">Agile IT, PMO & ITIL</Link>
@@ -165,7 +166,10 @@ const Navbar = () => {
           </li>
           <div className="dropdown-menu web-view">
             <li className={navhead ? `navhead` : "navhead-bg"}>
-              <Link className="dropdown-button" id={navhead ? `navhead` : "navhead-bg"}>
+              <Link
+                className="dropdown-button"
+                id={navhead ? `navhead` : "navhead-bg"}
+              >
                 Services <GoChevronDown className="down-aero" />{" "}
               </Link>
             </li>
@@ -203,9 +207,7 @@ const Navbar = () => {
                 <Link to="/products/cybersecurity">Cybersecurity</Link>
               </li>
               <li>
-                <Link to="/products/networksolutions">
-                  Telecom and Network
-                </Link>
+                <Link to="/products/networksolutions">Telecom and Network</Link>
               </li>
               <li>
                 <Link to="/products/b2bmarketing">B2B marketing</Link>
@@ -221,22 +223,29 @@ const Navbar = () => {
               </li>
               <li>
                 <Link to="/products/websitedevelopment">
-                  Website development
+                  SaaS Website development
                 </Link>
               </li>
               <li>
-              <Link to="/products/websitedevelopment">
+                <Link to="/products/websitedevelopment">
                   Loans and Services
-                </Link></li>
+                </Link>
+              </li>
             </ul>
           </div>
           <li>
-            <Link className={navhead ? `navhead` : "navhead-bg"} to="/regulations">
+            <Link
+              className={navhead ? `navhead` : "navhead-bg"}
+              to="/regulations"
+            >
               Fintech
             </Link>
           </li>
           <li>
-            <Link className={navhead ? `navhead` : "navhead-bg"} to="/contact-us">
+            <Link
+              className={navhead ? `navhead` : "navhead-bg"}
+              to="/contact-us"
+            >
               Contact Us
             </Link>
           </li>

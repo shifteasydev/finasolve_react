@@ -11,7 +11,7 @@ const MergersandAcquisitions = () => {
     <div>
     <ScrollToTop/>
     <Navbar/>
-    <AboutHero heading="Regulations" img={RegulationHero} details="Revolutionise the methods your compliance team manages the regulatory changes."/>
+    <AboutHero heading="Mergers & Acquisitions" img={RegulationHero} details="Revolutionise the methods your compliance team manages the regulatory changes."/>
     <Footer/>
     
         </div>
