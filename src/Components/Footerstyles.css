@@ -45,7 +45,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    padding: 20px 30px;
+    padding: 20px 30px 30px 30px;
     
 }
 
@@ -154,7 +154,11 @@
 
     .footer-left,.footer-right{
         width: 100%;
-        gap: 10px;
+        gap: 0px;
+
+    }
+    .footer-right{
+        margin-top: -20px !important;
     }
     
     

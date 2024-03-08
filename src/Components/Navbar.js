@@ -219,10 +219,10 @@ const Navbar = () => {
                 <Link to="/products/callcenter">Call center</Link>
               </li>
               <li>
-                <Link to="/products/appdevelopment">App development</Link>
+                <Link to="/solutions/gamingapp">App development</Link>
               </li>
               <li>
-                <Link to="/products/websitedevelopment">
+                <Link to="/solutions/saasweb">
                   SaaS Website development
                 </Link>
               </li>
