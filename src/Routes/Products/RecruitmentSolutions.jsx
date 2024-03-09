@@ -1,8 +1,22 @@
 import React from 'react'
+import Navbar from '../../Components/Navbar';
+import AboutHero from '../../Components/AboutHero';
+import Footer from '../../Components/Footer';
+import ScrollToTop from '../../Components/Scroll';
+import RegulationHero from '../../Assets/office.jpg';
 
 const RecruitmentSolutions = () => {
   return (
-    <div>RecruitmentSolutions</div>
+    <div>
+      <ScrollToTop />
+      <Navbar />
+      <AboutHero
+        heading="Recruitment Solutions"
+        img={RegulationHero}
+        details="Revolutionise the methods your compliance team manages the regulatory changes."
+      />
+      <Footer />
+    </div>
   )
 }
 

@@ -33,6 +33,8 @@ import DatascienceEngineering from './Routes/Solutions/Datascience-Engineering';
 import Etrading from './Routes/Solutions/Etrading';
 import Gamingapp from './Routes/Solutions/gamingapp';
 import SaaSweb from './Routes/Solutions/saasweb';
+import Servicesmobile from './Routes/Servicesmobile';
+
 // Products Page Imported
 import ManagementConsulting from './Routes/Products/ManagementConsulting';
 import FinancialConsulting from './Routes/Products/FinancialConsulting';
@@ -48,6 +50,7 @@ import LeadGenerations from './Routes/Products/LeadGenerations';
 import CallCenter from './Routes/Products/CallCenter';
 import AppDevelopment from './Routes/Products/AppDevelopments';
 import WebsiteDevelopment from './Routes/Products/WebsiteDevelopment';
+import Homeloan from './Routes/Products/Homeloan';
 
 import Login from '../src/Routes/Login';
 import Signup from '../src/Routes/Signup';
@@ -94,6 +97,7 @@ function App() {
       <Route path="/solutions/gamingapp" element={<Gamingapp/>} />
       <Route path="/solutions/saasweb" element={<SaaSweb/>} />
 
+
                       {/* PROUCTS PAGE  IS ADDED HERE */}
 
       <Route path="/Products/ManagementConsulting" element={<ManagementConsulting/>} />
@@ -110,6 +114,7 @@ function App() {
       <Route path="/products/callcenter" element={<CallCenter/>} />
       <Route path="/products/appdevelopment" element={<AppDevelopment/>} />
       <Route path="/products/websitedevelopment" element={<WebsiteDevelopment/>} />
+      <Route path="/products/Homeloan" element={<Homeloan/>} />
 
 
 
@@ -117,6 +122,7 @@ function App() {
 
 
       <Route path="/regulations" element={<Regulation/>} />
+      <Route path="/servicesmobile" element={<Servicesmobile/>} />
       <Route path="/services" element={<Services/>} />
       <Route path="/news-blogs" element={<News/>}/>
       <Route path="/contact-us" element={<Contact/>} />

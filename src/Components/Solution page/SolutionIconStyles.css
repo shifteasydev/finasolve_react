@@ -52,6 +52,7 @@ transition: all 0.25s;
 .solution-card img {
   width: 70px;
 }
+
 .solution-card p {
   font-size: 14px;
   text-align: center;
@@ -89,6 +90,9 @@ transition: all 0.25s;
 }
 .solution-card img {
     width: 20px;
+  }
+  .solution-img{
+    width: 50px !important;
   }
 .solution-card p {
     font-size: 8px;

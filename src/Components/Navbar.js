@@ -162,7 +162,7 @@ const Navbar = () => {
                     </div> */}
 
           <li className="mobile-view">
-            <Link to="#">Services</Link>
+            <Link to="/Servicesmobile">Services</Link>
           </li>
           <div className="dropdown-menu web-view">
             <li className={navhead ? `navhead` : "navhead-bg"}>
@@ -222,12 +222,10 @@ const Navbar = () => {
                 <Link to="/solutions/gamingapp">App development</Link>
               </li>
               <li>
-                <Link to="/solutions/saasweb">
-                  SaaS Website development
-                </Link>
+                <Link to="/solutions/saasweb">SaaS Website development</Link>
               </li>
               <li>
-                <Link to="/products/websitedevelopment">
+                <Link to="/products/homeloan">
                   Loans and Services
                 </Link>
               </li>

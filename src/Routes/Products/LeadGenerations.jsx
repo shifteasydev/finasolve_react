@@ -1,9 +1,23 @@
-import React from 'react'
+import React from "react";
+import Navbar from "../../Components/Navbar";
+import AboutHero from "../../Components/AboutHero";
+import Footer from "../../Components/Footer";
+import ScrollToTop from "../../Components/Scroll";
+import RegulationHero from "../../Assets/office.jpg";
 
 const LeadGenerations = () => {
   return (
-    <div>LeadGenerations</div>
-  )
-}
+    <div>
+      <ScrollToTop />
+      <Navbar />
+      <AboutHero
+        heading="LeadGenerations"
+        img={RegulationHero}
+        details="Revolutionise the methods your compliance team manages the regulatory changes."
+      />
+      <Footer />
+    </div>
+  );
+};
 
-export default LeadGenerations
+export default LeadGenerations;

@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Navbar from '../Components/Navbar';
 import SolutionHero from '../Components/AboutHero';
 import Footer from '../Components/Footer';

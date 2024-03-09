@@ -5,13 +5,13 @@ import Footer from "../../Components/Footer";
 import ScrollToTop from "../../Components/Scroll";
 import RegulationHero from "../../Assets/office.jpg";
 
-const AppDevelopments = () => {
+const Homeloan = () => {
   return (
     <div>
       <ScrollToTop />
       <Navbar />
       <AboutHero
-        heading="AppDevelopments"
+        heading="Home Loan"
         img={RegulationHero}
         details="Revolutionise the methods your compliance team manages the regulatory changes."
       />
@@ -20,4 +20,4 @@ const AppDevelopments = () => {
   );
 };
 
-export default AppDevelopments;
+export default Homeloan;
